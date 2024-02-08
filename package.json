@@ -1,4 +1,5 @@
 {
+  "homepage":"https://itsakhilp.github.io/react-ecommerce/",
   "name": "react-ecommerce",
   "version": "0.1.0",
   "private": true,
@@ -18,6 +19,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -42,7 +45,9 @@
   },
   "description": "## Follow the 3 Steps and you are good to go.",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
   "author": "",
   "license": "ISC"
 }

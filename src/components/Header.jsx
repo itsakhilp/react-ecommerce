@@ -3,12 +3,13 @@ import { NavLink } from 'react-router-dom';
 import styled from "styled-components"
 
 import Navbar from './Nav';
+let logo = require('../images/logo.png')
 
 const Header = () => {
   return (
    <MainHeader>
         <NavLink to="/">
-            <img src="/images/logo.png" alt="logo img" className='logo'/>
+            <img src={logo} alt="logo img" className='logo'/>
         </NavLink>
         <Navbar/>
    </MainHeader>

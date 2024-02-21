@@ -1,7 +1,7 @@
 // import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 import {Button} from '../styles/Button'
-let heroImg = require('../images/hero.jpg')
+let heroImg = require('../images/hero.png')
 
 
 const HeroSection = ({myData}) => {
@@ -67,7 +67,7 @@ figure {
 
   &::after {
     content: "";
-    width: 60%;
+    // width: 10%;
     height: 80%;
     background-color: rgba(81, 56, 238, 0.4);
     position: absolute;
@@ -88,7 +88,7 @@ figure {
 
   figure::after {
     content: "";
-    width: 50%;
+    // width: 50%;
     height: 100%;
     left: 0;
     top: 10%;
